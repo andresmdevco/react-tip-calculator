@@ -54,7 +54,7 @@ Calculadora de consumo y propina construida con **React**, **TypeScript** y **Ta
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/<tu-usuario>/react-tip-calculator.git
+   git clone https://github.com/andresmdevco/react-tip-calculator.git
    cd react-tip-calculator
    ```
 
