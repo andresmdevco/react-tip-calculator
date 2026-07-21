@@ -3,9 +3,11 @@
 Calculadora de consumo y propina construida con **React**, **TypeScript** y **Tailwind CSS**. Permite armar una orden a partir de un menú, calcular el subtotal, aplicar un porcentaje de propina y obtener el total a pagar.
 
 ## 🌐 Demo
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1ab4afb6-4394-40f3-b84a-35fa9d4bc7b4/deploy-status)](https://app.netlify.com/projects/tip-calculator-andresmdevco/deploys)
 
 🔗 [https://tip-calculator-andresmdevco.netlify.app/](https://tip-calculator-andresmdevco.netlify.app/)
+
+## 👀 Vista previa
+https://github.com/user-attachments/assets/df5ba1d7-cca5-46d3-a89b-a905016446ab
 
 ## 🛠️ Tecnologías utilizadas
 
