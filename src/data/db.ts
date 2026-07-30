@@ -38,7 +38,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 8,
-    name: 'Jugo de Naranja',
+    name: 'Jugo de Maracuyá',
     price: 15,
   },
   {
