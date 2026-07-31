@@ -6,10 +6,7 @@ type OrderContentsProps = {
   removeItem: (id: MenuItem['id']) => void;
 };
 
-export default function OrderContents({
-  order,
-  removeItem,
-}: OrderContentsProps) {
+export default function OrderContents({ order, removeItem }: OrderContentsProps) {
   return (
     <div>
       <h2 className="font-black text-4xl">Consumo</h2>
@@ -25,8 +22,7 @@ export default function OrderContents({
                 {item.name} - {formatCurrency(item.price)}
               </p>
               <p className="font-black">
-                Cantidad: {item.quantity} -{' '}
-                {formatCurrency(item.price * item.quantity)}
+                Cantidad: {item.quantity} - {formatCurrency(item.price * item.quantity)}
               </p>
             </div>
 

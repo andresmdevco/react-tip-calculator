@@ -23,10 +23,7 @@ type TipPercentageFormProps = {
   tip: number;
 };
 
-export default function TipPercentageForm({
-  setTip,
-  tip,
-}: TipPercentageFormProps) {
+export default function TipPercentageForm({ setTip, tip }: TipPercentageFormProps) {
   return (
     <div>
       <h3 className="font-black text-2xl">Propina:</h3>

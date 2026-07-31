@@ -8,20 +8,13 @@ type OrderTotalsProps = {
   placeOrder: () => void;
 };
 
-export default function OrderTotals({
-  order,
-  tip,
-  placeOrder,
-}: OrderTotalsProps) {
+export default function OrderTotals({ order, tip, placeOrder }: OrderTotalsProps) {
   const subtotalAmount = useMemo(
     () => order.reduce((total, item) => total + item.quantity * item.price, 0),
     [order],
   );
   const tipAmount = useMemo(() => subtotalAmount * tip, [subtotalAmount, tip]);
-  const totalAmount = useMemo(
-    () => subtotalAmount + tipAmount,
-    [subtotalAmount, tipAmount],
-  );
+  const totalAmount = useMemo(() => subtotalAmount + tipAmount, [subtotalAmount, tipAmount]);
 
   return (
     <>
