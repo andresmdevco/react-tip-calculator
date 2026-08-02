@@ -8,8 +8,8 @@ import { menuItems } from './data/db';
 import useOrder from './hooks/useOrder';
 
 function App() {
-  const { order, tip, setTip, addItem, removeItem, placeOrder } = useOrder();
-  const [state, dispatch] = useReducer(orderReducer, initialState)
+  const { order, tip, setTip, removeItem, placeOrder } = useOrder();
+  const [state, dispatch] = useReducer(orderReducer, initialState);
 
   return (
     <>
@@ -23,7 +23,7 @@ function App() {
 
           <div className="space-y-3 mt-10">
             {menuItems.map((item) => (
-              <MenuItem key={item.id} item={item} addItem={addItem} />
+              <MenuItem key={item.id} item={item} dispatch={dispatch} />
             ))}
           </div>
         </div>
