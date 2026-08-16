@@ -1,6 +1,5 @@
-# 🧾 React Tip Calculator
-
-Calculadora de consumo y propina construida con **React**, **TypeScript** y **Tailwind CSS**. Permite armar una orden a partir de un menú, calcular el subtotal, aplicar un porcentaje de propina y obtener el total a pagar.
+# 🧾 Calculadora de Propinas y Consumo
+Aplicación web de una calculadora de propinas y consumo construida con **React**, **TypeScript** y **Tailwind CSS**. Permite armar una orden a partir de un menú, calcular el subtotal, aplicar un porcentaje de propina y obtener el total a pagar.
 
 ## 🌐 Demo
 
