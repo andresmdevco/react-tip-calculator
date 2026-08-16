@@ -58,7 +58,7 @@ https://github.com/user-attachments/assets/df5ba1d7-cca5-46d3-a89b-a905016446ab
 6. `OrderTotals.tsx` calcula, usando `useMemo`, el **subtotal**, el **monto de la propina** y el **total a pagar**, y muestra el botón para guardar la orden.
 7. Al guardar la orden, se dispara `place-order`, y el reducer reinicia el estado (`order` vacío y `tip` en 0).
 
-## 📚 Conceptos practicados
+## 📚 Conceptos aplicados
 
 - Migración de `useState` + custom hook a `useReducer` para centralizar el estado
 - Modelado de acciones con discriminated unions (`OrderActions`) para tipar `type` y `payload` de forma segura
